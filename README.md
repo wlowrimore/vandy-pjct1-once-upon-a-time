@@ -1,10 +1,5 @@
 # **Once Upon a Time**
 
-## **The Repository**
-### This respository ("bang-the-drum"):  https://github.com/loriful/bang-the-drum
-### Deployment:  https://loriful.github.io/bang-the-drum/
-
-
 
 ## **Description**
 
@@ -15,9 +10,11 @@
 
 ## **The Site View**
 
-<p align="center">
-  <img src="./assets/images/mock-up.png" alt="Web Page Initial View" >
-</p>
+
+<img src="assets/Images/1nceUponATime.png" alt="Web Page Initial View" >
+
+<a href="github.com/wlowrimore/vandy-pjct1-once-upon-a-time" target="_blank" rel="noreferrer">GitHub</a>
+
 
 <!-- ## **Resources** -->
 
@@ -27,5 +24,5 @@ Published 02/6/22
 
 Co-created by William Lowrimore, Cole  heintzman, and Lori Tipton
 
-tiptonica@gmail.com
+wlowrimore@gmail.com
 
