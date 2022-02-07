@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <link rel="stylesheet" href="./assets/style.css">
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Once Upon a</title>
+</head>
+<body >
+    <header class= "col-12 col-md-3 p-2">
+        <h1>Once Upon a Time</h1>
+    </header>
+    <main class="container-fluid">
+        <div class="row">
+            <div class="if-box col-12 col-md-3 p-2">
+                <div class="col-12 col-md-3 p-2 input-form">
+                    <form id="once-upon-a-time-form" class="table">
+                        <div class="search-1">
+                            <label id="search-date" class="search-date">Search a Date</label>
+                            <input id="searched-date" class="mb-2 w-100 searched-date" type="text" placeholder="Enter your Date">
+                        </div>
+                        <div class="search-2">
+                            <label id="search-location" class="search-location">Search by Zipcode</label>
+                            <input id="searched-location" class="mb-2 form input w-100 searched-location" type="text" placeholder="Enter your Location">
+                        </div>
+                        <button id="get-some" class="btn">Find Your History</button>
+                    </form>
+                </div>
+            </div>
+            <div class="past-search border" id="past-search-buttons"></div>
+            
+
+            
+
+
+            <div class="col-12 col-md-9">
+                <div class="row border selected-date" id="searched-date">
+                    <div class="col-12">
+                        <h2 id="searched-date"></h2>
+                        <div id="historical-events" class="list-group"></div>
+                        <p id=""></p>
+                    </div>
+                </div>
+            </div>
+
+
+            <div class="col-12 col-md-3 p-2 weather-display">
+                <div class="row border selected-location" id="location-date-weather">
+                    <h2 class="col-12 col-md-12 weather-preview" id="historical-weather">Historical Weather</h2>
+                    <div class="d-flex" id="historical-weather-container"></div>  
+                </div>
+            </div>
+            
+        </div>
+    </main>
+    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+     <!-- moment.js -->
+     <script src="https://cdnjs.cloudflare.com/ajax/libs/moment.js/2.24.0/moment.min.js"></script>
+    <!--My Javascript-->
+     <script src="assets/script.js"></script>
+
+     <footer>
+        <h4>Sunset and sunrise data provided by the fine folks at <span class="co-name">Sunrise-Sunset</span>.</h4>
+        <p>
+            <a href="https://sunrise-sunset.org/">https://sunrise-sunset.org/</a>
+        </p>
+    </footer>
+</body>
+</html>
+</html>
